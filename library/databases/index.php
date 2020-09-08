@@ -313,7 +313,7 @@ $multiquery = "SELECT Dbases.Title, Dbases.Key_ID, Dbases.ShortDescription, Dbas
     <div class="col-lg-4 row-eq-height">
     <div class="promoCard2">
     <h2 class="promoTitle">
-<span class="fas fa-bullhorn"></span>&nbsp;Free Publisher Resources</h2>
+<span class="fas fa-bullhorn"></span>&nbsp;Academic Video Online</h2>
 <?php
 //$newquery = "SELECT Dbases.Title, Dbases.Key_ID, Dbases.ShortDescription, Dbases.ContentType, Dbases.HighlightedInfo, Dbases.SimUsers, Dbases.ShortURL, Dbases.TutorialURL FROM Dbases WHERE Dbases.New = 1 ORDER BY Dbases.Title";
 //        $result = mysqli_query($conLuptonDB, $newquery) or die($error);
@@ -322,19 +322,23 @@ $multiquery = "SELECT Dbases.Title, Dbases.Key_ID, Dbases.ShortDescription, Dbas
 //        } else {
 //            generatelist($result,'');
 //        } ?>
-<p align="center"><img alt="" src="//www.utc.edu/library/images/homepage/feature-free-resources.jpg
-" align="center;" style="width: 100%; border-radius: 10px"></p>
-<h3 style="font-size: 24px; text-align: center;">Free Publisher Resources Available for a Limited Time</h3>
+    <p align="center"><img alt="" src="https://utc.edu/library/images/homepage/feature-avon-african-american-films.png" align="center;" style="width: 100%; border-radius: 10px">
+    </p>
+    <h3 style="font-size: 24px; text-align: center;">Academic Video Online</h3>
 
- 
 
-<p align="center"> Numerous content providers are generously providing the UTC community with free access to databases, e-journals, eBooks, streaming videos and more for the next month or more, depending on the provider.</p>
-<p align="center"> Please note access end dates in red text in each resource’s description. 
-</p>
-<span><a href="https://guides.lib.utc.edu/free-pub-resources
-" onclick="" class="btn-lnk" target="_blank"><div class="btn btn-block btn-primary btn-wrap btn-lnk">View Free Resources</div></a> 
-                </span>
-      </div>
+    <p align="center">
+        This comprehensive scholarly streaming video database includes documentaries, interviews, performances, news programs, field recordings, commercials, and more.</p>
+    <p align="center">
+        New videos are being regularly added to this database. See a list of
+        <a href="https://support.proquest.com/articledetail?id=kA11W000000bmisSAA" onclick="" target="_blank">new and notable titles</a>.
+    </p>
+    <span>
+        <a href="https://liblab.utc.edu/scripts/LGForward.php?db=540" onclick="" class="btn-lnk" target="_blank">
+            <div class="btn btn-block btn-primary btn-wrap btn-lnk">Explore Streaming Films</div>
+        </a>
+    </span>     
+ </div>
     </div>
     <!-- END PROMO BOX -->
     </div>
