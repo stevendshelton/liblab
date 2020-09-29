@@ -111,7 +111,7 @@ echo "
   <div id='alpha' class='row'>
 	<div class='col'>";
   ?>
-  <button class="btn fas fa-info-circle pageInfoPopper" data-toggle="popover" a="" href="#" data-popover-content="#pageInfo" data-original-title="" title="" aria-describedby="popover276455"></button>
+  <button class="btn fas fa-question-circle pageInfoPopper" data-toggle="popover" a="" href="#" data-popover-content="#pageInfo" data-original-title="" title="" aria-describedby="popover276455"></button>
 
   <?php
 echo "<h1>".$h1Prepend." Databases".$displayAlpha."</h1>";
@@ -125,6 +125,7 @@ echo "<h1>".$h1Prepend." Databases".$displayAlpha."</h1>";
    <ul>
    <li><a href="https://utc.primo.exlibrisgroup.com/discovery/search?vid=01UTC_INST:01UTC&lang=en" target="_blank">Quick Search</a><p>Search the library's physical resources, and many electronic resources, in a single search.</li>
    <li><a href="https://www.utc.edu/library/help/tutorials/reseach-basics.php" target="_blank">Research Basics</a><p>Need help getting started? Begin with the basics!</p></li>
+   <li><a href="https://guides.lib.utc.edu/database-access-help" target="_blank">Database Access Help</a><p>Simple troubleshooting tips, details on how to report issues, and information about some of our databases.  </p></li>
    <li><a href="https://www.utc.edu/library/about/electronic-resource-use.php" target="_blank">Electronic Resource Use Policy</a><p>Guidelines for using the library’s online resources.</li>
    </div>
    </div>
@@ -313,7 +314,7 @@ $multiquery = "SELECT Dbases.Title, Dbases.Key_ID, Dbases.ShortDescription, Dbas
     <div class="col-lg-4 row-eq-height">
     <div class="promoCard2">
     <h2 class="promoTitle">
-<span class="fas fa-bullhorn"></span>&nbsp;Academic Video Online</h2>
+<span class="fas fa-bullhorn"></span>&nbsp;Database Access Help</h2>
 <?php
 //$newquery = "SELECT Dbases.Title, Dbases.Key_ID, Dbases.ShortDescription, Dbases.ContentType, Dbases.HighlightedInfo, Dbases.SimUsers, Dbases.ShortURL, Dbases.TutorialURL FROM Dbases WHERE Dbases.New = 1 ORDER BY Dbases.Title";
 //        $result = mysqli_query($conLuptonDB, $newquery) or die($error);
@@ -322,22 +323,17 @@ $multiquery = "SELECT Dbases.Title, Dbases.Key_ID, Dbases.ShortDescription, Dbas
 //        } else {
 //            generatelist($result,'');
 //        } ?>
-    <p align="center"><img alt="" src="https://utc.edu/library/images/homepage/feature-avon-african-american-films.png" align="center;" style="width: 100%; border-radius: 10px">
+ <p align="center"><img alt="" src="https://utc.edu/library/images/homepage/feature-free-resources.jpg" align="center;" style="width: 100%; border-radius: 10px">
     </p>
-    <h3 style="font-size: 24px; text-align: center;">Academic Video Online</h3>
-
-
+    <h3 style="font-size: 24px; text-align: center;">Database Access Help</h3>
     <p align="center">
-        This comprehensive scholarly streaming video database includes documentaries, interviews, performances, news programs, field recordings, commercials, and more.</p>
-    <p align="center">
-        New videos are being regularly added to this database. See a list of
-        <a href="https://support.proquest.com/articledetail?id=kA11W000000bmisSAA" onclick="" target="_blank">new and notable titles</a>.
-    </p>
+        Experiencing a problem with a library database, ebook, or streaming video? This guide provides simple troubleshooting tips, details on how to report the problem to UTC Library, and access information related to some of our databases.  
+</p>
     <span>
-        <a href="https://liblab.utc.edu/scripts/LGForward.php?db=540" onclick="" class="btn-lnk" target="_blank">
-            <div class="btn btn-block btn-primary btn-wrap btn-lnk">Explore Streaming Films</div>
+        <a href="https://guides.lib.utc.edu/database-access-help" onclick="" class="btn-lnk" target="_blank">
+            <div class="btn btn-block btn-primary btn-wrap btn-lnk">Explore Help Guide</div>
         </a>
-    </span>     
+    </span>    
  </div>
     </div>
     <!-- END PROMO BOX -->
