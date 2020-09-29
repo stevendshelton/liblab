@@ -323,7 +323,7 @@ $multiquery = "SELECT Dbases.Title, Dbases.Key_ID, Dbases.ShortDescription, Dbas
 //        } else {
 //            generatelist($result,'');
 //        } ?>
- <p align="center"><img alt="" src="https://utc.edu/library/images/homepage/feature-free-resources.jpg" align="center;" style="width: 100%; border-radius: 10px">
+ <p align="center"><img alt="" src="/library/images/homepage/feature-free-resources.jpg" align="center;" style="width: 100%; border-radius: 10px">
     </p>
     <h3 style="font-size: 24px; text-align: center;">Database Access Help</h3>
     <p align="center">
