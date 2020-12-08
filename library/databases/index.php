@@ -314,7 +314,7 @@ $multiquery = "SELECT Dbases.Title, Dbases.Key_ID, Dbases.ShortDescription, Dbas
     <div class="col-lg-4 row-eq-height">
     <div class="promoCard2">
     <h2 class="promoTitle">
-<span class="fas fa-bullhorn"></span>&nbsp;Database Access Help</h2>
+<span class="fas fa-bullhorn"></span>&nbsp;Database Help</h2>
 <?php
 //$newquery = "SELECT Dbases.Title, Dbases.Key_ID, Dbases.ShortDescription, Dbases.ContentType, Dbases.HighlightedInfo, Dbases.SimUsers, Dbases.ShortURL, Dbases.TutorialURL FROM Dbases WHERE Dbases.New = 1 ORDER BY Dbases.Title";
 //        $result = mysqli_query($conLuptonDB, $newquery) or die($error);
@@ -334,6 +334,14 @@ $multiquery = "SELECT Dbases.Title, Dbases.Key_ID, Dbases.ShortDescription, Dbas
             <div class="btn btn-block btn-primary btn-wrap btn-lnk">Explore Help Guide</div>
         </a>
     </span>    
+    <hr />
+    <h3 style="font-size: 24px; text-align: center;">Database Tip Sheets</h3>
+    <p align="center">Need a screenshot walkthrough of the library's top used databases? Try these tip sheets.</p>
+    <span>
+        <a href="https://guides.lib.utc.edu/library-tip-sheets" onclick="" class="btn-lnk" target="_blank">
+            <div class="btn btn-block btn-primary btn-wrap btn-lnk">Explore Database Tip Sheets</div>
+        </a>
+    </span>
  </div>
     </div>
     <!-- END PROMO BOX -->
