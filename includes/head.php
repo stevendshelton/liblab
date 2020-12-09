@@ -236,17 +236,15 @@ if ($errorReporting === "Y") {
           </li>
         </ul>
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item order-lg-1">
-            <a class="nav-link account" href="https://www.utc.edu/library/services/accounts.php" data-toggle="tooltip" data-placement="right" title="Library Accounts">
+          <li>
+            <a class="nav-link account" href="https://www.utc.edu/library/services/accounts.php">
               <span class="fas fa-user-circle"></span>
-              <span class="d-lg-none">&nbsp;Library Accounts</span>
+              &nbsp;Library Accounts
             </a>
           </li>
           <li id="libHours" class="nav-item order-lg-0">
-            <a class="nav-link" href="https://www.utc.edu/library/about/hours.php"><span class="fas fa-clock"></span>&nbsp;Today's Hours:
-              <?php
-              include($_SERVER['DOCUMENT_ROOT'] . "/scripts/hours-v2.php");
-              ?>
+            <a class="nav-link" href="https://www.utc.edu/library/about/hours.php">
+            <span class="fas fa-clock"></span>&nbsp;Hours
             </a>
           </li>
         </ul>
@@ -278,22 +276,22 @@ if ($errorReporting === "Y") {
         $description = $item->description;
         $postDate = $item->pubDate;
         $pubDate = date('D, M d Y g:i A', strtotime($postDate));
-        if ($title != "No emergencies at this time"){
+        if ($title != "No emergencies at this time") {
     ?>
-        <div id="alert" style="display: block;">
-          <div id="utc-alert" style="margin: 18px;" class="alert alert-danger">
-            <button type="button" class="close" data-dismiss="alert">×</button>
-            <h2><?php echo $title; ?></h2>
-            <p><small>Posted on <?php echo $pubDate; ?></small></p>
-            <p>
-              <?php echo implode(' ', array_slice(explode(' ', $description), 0, 20)) . "..."; ?>
-            </p>
-            <p><a class="btn btn-danger" href="<?php echo $link; ?>">More information…</a></p>
+          <div id="alert" style="display: block;">
+            <div id="utc-alert" style="margin: 18px;" class="alert alert-danger">
+              <button type="button" class="close" data-dismiss="alert">×</button>
+              <h2><?php echo $title; ?></h2>
+              <p><small>Posted on <?php echo $pubDate; ?></small></p>
+              <p>
+                <?php echo implode(' ', array_slice(explode(' ', $description), 0, 20)) . "..."; ?>
+              </p>
+              <p><a class="btn btn-danger" href="<?php echo $link; ?>">More information…</a></p>
+            </div>
           </div>
-        </div>
     <?php
-      }
-    break;
+        }
+        break;
       }
     } else {
       if (!$invalidurl) {

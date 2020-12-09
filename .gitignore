@@ -1,2 +1,3 @@
 includes/statsconnect.php
 .DS_Store
+library/images/*
