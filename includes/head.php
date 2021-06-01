@@ -204,10 +204,9 @@ if ($errorReporting === "Y") {
       <div class="row">
         <div class="col blueHeader">
 
-          <a href="https://utc.edu/">
-            <img src="/includes/img/web-wordmark-retina.png" alt="UTC wordmark">
+          <a href="https://utc.edu/library">
+            <img src="/includes/img/web-wordmark-retina.png" alt="UTC Library">
           </a>
-          <h1><a href="https://www.utc.edu/library/">UTC Library</a></h1>
         </div>
       </div>
     </div>
