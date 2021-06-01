@@ -98,10 +98,6 @@ if ($errorReporting === "Y") {
       }
     })();
   </script>
-  <meta name=”twitter:site” content=”@UTChattanooga”>
-  <script type="text/javascript">
-    var page_id = "//www.utc.edu/library/about/mission.php";
-  </script>
   <style>
     /* fix for random black background on sub menu */
     .navbar .nav li.dropdown.active>.dropdown-toggle {
@@ -156,22 +152,22 @@ if ($errorReporting === "Y") {
       <div class="collapse navbar-collapse" id="navbarUTC">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link" href="https://www.utc.edu/about/student-resources.php">Students</a>
+            <a class="nav-link" href="https://www.utc.edu/about/student-resources">Students</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="https://www.utc.edu/about/faculty-staff-resources.php">Faculty&nbsp;&amp;&nbsp;Staff</a>
+            <a class="nav-link" href="https://www.utc.edu/about/faculty-and-staff-resources">Faculty&nbsp;&amp;&nbsp;Staff</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="https://www.utc.edu/about/alumni-friends.php">Alumni</a>
+            <a class="nav-link" href="https://www.utc.edu/about/alumni-and-friends">Alumni</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="https://www.utc.edu/admissions/parents.php">Parents</a>
+            <a class="nav-link" href="https://new.utc.edu/enrollment-management-and-student-affairs/admissions/parents">Parents</a>
           </li>
         </ul>
-        <form class="form-inline ouSearch my-lg-0" action="https://www.utc.edu/search.php" method="post">
+        <form class="form-inline ouSearch my-lg-0" action="https://new.utc.edu/search/gcse" method="get">
           <div class="input-group" role="search" aria-label="Search Form">
-            <label for="q" class="hidden sr-only" aria-label="Search">Search:</label>
-            <input name="q" id="q" type="text" class="form-control input search-query" placeholder="Search&hellip;" aria-label="Search Input">
+            <label for="keys" class="hidden sr-only" aria-label="Search">Search:</label>
+            <input name="keys" id="keys" type="text" class="form-control input search-query" placeholder="Search&hellip;" aria-label="Search Input">
             <div class="input-group-append">
               <button class="btn btnUtcSearch" type="submit" value="Go Search" aria-label="Go Search"><span class="fas fa-search">
                   <!-- icon --></span><span class="sr-only">&nbsp;Search</span></button>
@@ -180,21 +176,21 @@ if ($errorReporting === "Y") {
         </form>
         <ul class="navbar-nav ml-auto flex-column-reverse flex-lg-row">
           <li class="nav-item utcHome">
-            <a class="nav-link" href="https://www.utc.edu/"><span class="fas fa-home"><span class="sr-only">UTC Home</span></span></a>
+            <a class="nav-link" href="https://www.utc.edu"><span class="fas fa-home"><span class="sr-only">UTC Home</span></span></a>
           </li>
           <li class="nav-item">
-            <a id="top-nav-apply" class="nav-link" href="https://www.utc.edu/apply/">Apply</a>
+            <a id="top-nav-apply" class="nav-link" href="https://www.utc.edu/apply">Apply</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="https://www.utc.edu/records/registration-information/class-schedule.php"><span class="menu-hide">Class </span>Schedule&nbsp;<span class="fas fa-external-link-alt fa-xs" aria-hidden="true">
+            <a class="nav-link" href="https://new.utc.edu/enrollment-management-and-student-affairs/registrar/registration-information/class-schedule"><span class="menu-hide">Class </span>Schedule&nbsp;<span class="fas fa-external-link-alt fa-xs" aria-hidden="true">
                 <!-- External Link --></span><span class="sr-only">Link opens in new window</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="https://www.utc.edu/my/index.php target=" _blank"" target="_blank"><span class="menu-hide">My </span>MocsNet&nbsp;<span class="fas fa-external-link-alt fa-xs"></span><span class="sr-only">Link opens in new
+            <a class="nav-link" href="https://mymocs.utc.edu" target="_blank"><span class="menu-hide">My </span>MocsNet&nbsp;<span class="fas fa-external-link-alt fa-xs"></span><span class="sr-only">Link opens in new
                 window</span><!-- External Link --></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="https://www.utc.edu/learn/"><span class="menu-hide">UTC </span>Learn&nbsp;<span class="fas fa-globe-americas" aria-hidden="true">
+            <a class="nav-link" href="https://www.utc.edu/academic-affairs/walker-center-for-teaching-and-learning/utc-learn"><span class="menu-hide">UTC </span>Learn&nbsp;<span class="fas fa-globe-americas" aria-hidden="true">
                 <!-- globe --></span></a>
           </li>
         </ul>
@@ -222,7 +218,7 @@ if ($errorReporting === "Y") {
             <a class="nav-link" href="https://www.utc.edu/library">Library Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="https://www.utc.edu/library/find-resources.php">Find Resources</a>
+            <a class="nav-link" href="https://www.utc.edu/library/find-resources">Find Resources</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="https://www.utc.edu/library/help">Help</a>
@@ -236,13 +232,13 @@ if ($errorReporting === "Y") {
         </ul>
         <ul class="navbar-nav ml-auto">
           <li>
-            <a class="nav-link account" href="https://www.utc.edu/library/services/accounts.php">
+            <a class="nav-link account" href="/library/services/check-out-renew-and-return/accounts">
               <span class="fas fa-user-circle"></span>
               &nbsp;Library Accounts
             </a>
           </li>
           <li id="libHours" class="nav-item order-lg-0">
-            <a class="nav-link" href="https://www.utc.edu/library/about/hours.php">
+            <a class="nav-link" href="https://www.utc.edu/library/about/hours">
             <span class="fas fa-clock"></span>&nbsp;Hours
             </a>
           </li>

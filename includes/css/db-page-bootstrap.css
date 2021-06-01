@@ -1092,7 +1092,7 @@ a:hover.btnUtcSearch {
 }
 
 .blueHeader a img {
-  max-width: 325px;
+  /*max-width: 325px;*/
   padding: 12px;
   margin-top: 10px;
 }
