@@ -232,7 +232,7 @@ if ($errorReporting === "Y") {
         </ul>
         <ul class="navbar-nav ml-auto">
           <li>
-            <a class="nav-link account" href="/library/services/check-out-renew-and-return/accounts">
+            <a class="nav-link account" href="https://www.utc.edu/library/services/check-out-renew-and-return/accounts">
               <span class="fas fa-user-circle"></span>
               &nbsp;Library Accounts
             </a>

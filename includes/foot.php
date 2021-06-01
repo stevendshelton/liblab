@@ -30,7 +30,7 @@
                &nbsp;|&nbsp;
                Chattanooga, TN 37403
                &nbsp;|&nbsp;
-               (423) 425-4501<abbr title="Phone"> p</abbr>
+               (423) 425-4501<abbr title="Phone"> </abbr>
                &nbsp;|&nbsp;
                <a href="//www.utc.edu/library/about/contact">Contact Us</a>
             </p>
