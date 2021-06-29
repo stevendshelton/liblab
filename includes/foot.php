@@ -32,7 +32,7 @@
                &nbsp;|&nbsp;
                (423) 425-4501<abbr title="Phone"> </abbr>
                &nbsp;|&nbsp;
-               <a href="//www.utc.edu/library/about/contact">Contact Us</a>
+               <a href="https://www.utc.edu/library/about/contact">Contact Us</a>
             </p>
          </div>
       </div>
@@ -42,7 +42,7 @@
          <div class="col">
          <p><a href="https://www.utc.edu/about/contact" id="legal-questions">Questions?</a> © 2012-2021 University of Tennessee at Chattanooga. All rights reserved.</p>
 
-<p><a href="https://new.utc.edu/enrollment-management-and-student-affairs/title-ix#title-ix-statement" id="legal-title-ix">Title IX Statement</a> | <a href="https://www.utc.edu/communications-and-marketing/eeo-statement" id="legal-eeo">EEO Statement</a> | <a href="https://www.utc.edu/about/privacy" id="legal-privacy">Privacy Statement</a> | <a href="https://www.utc.edu/academic-affairs/accessible-information-materials-technology-program/">Accessibility</a> | <a href="https://utcwebdev.atlassian.net/servicedesk/customer/portals">Web Requests</a></p>
+<p><a href="https://www.utc.edu/enrollment-management-and-student-affairs/title-ix#title-ix-statement" id="legal-title-ix">Title IX Statement</a> | <a href="https://www.utc.edu/communications-and-marketing/eeo-statement" id="legal-eeo">EEO Statement</a> | <a href="https://www.utc.edu/about/privacy" id="legal-privacy">Privacy Statement</a> | <a href="https://www.utc.edu/academic-affairs/accessible-information-materials-and-technology-program">Accessibility</a> | <a href="https://utcwebdev.atlassian.net/servicedesk/customer/portals">Web Requests</a></p>
 <p>A comprehensive, community-engaged campus of the <a href="http://www.tennessee.edu/" id="legal-ut">University of Tennessee System</a> and partner in the&nbsp;<a href="https://www.tntransferpathway.org">Tennessee Transfer Pathway</a>.</p></div>
       </div>
    </div>

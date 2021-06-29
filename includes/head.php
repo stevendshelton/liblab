@@ -161,10 +161,10 @@ if ($errorReporting === "Y") {
             <a class="nav-link" href="https://www.utc.edu/about/alumni-and-friends">Alumni</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="https://new.utc.edu/enrollment-management-and-student-affairs/admissions/parents">Parents</a>
+            <a class="nav-link" href="https://www.utc.edu/enrollment-management-and-student-affairs/admissions/parents">Parents</a>
           </li>
         </ul>
-        <form class="form-inline ouSearch my-lg-0" action="https://new.utc.edu/search/gcse" method="get">
+        <form class="form-inline ouSearch my-lg-0" action="https://www.utc.edu/search/gcse" method="get">
           <div class="input-group" role="search" aria-label="Search Form">
             <label for="keys" class="hidden sr-only" aria-label="Search">Search:</label>
             <input name="keys" id="keys" type="text" class="form-control input search-query" placeholder="Search&hellip;" aria-label="Search Input">
@@ -179,19 +179,17 @@ if ($errorReporting === "Y") {
             <a class="nav-link" href="https://www.utc.edu"><span class="fas fa-home"><span class="sr-only">UTC Home</span></span></a>
           </li>
           <li class="nav-item">
-            <a id="top-nav-apply" class="nav-link" href="https://www.utc.edu/apply">Apply</a>
+            <a id="top-nav-apply" class="nav-link" href="https://webapp.utc.edu/apply/">Apply</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="https://new.utc.edu/enrollment-management-and-student-affairs/registrar/registration-information/class-schedule"><span class="menu-hide">Class </span>Schedule&nbsp;<span class="fas fa-external-link-alt fa-xs" aria-hidden="true">
-                <!-- External Link --></span><span class="sr-only">Link opens in new window</span></a>
+            <a class="nav-link" href="https://www.utc.edu/enrollment-management-and-student-affairs/registrar/registration-information/class-schedule">Class  Schedule</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="https://mymocs.utc.edu" target="_blank"><span class="menu-hide">My </span>MocsNet&nbsp;<span class="fas fa-external-link-alt fa-xs"></span><span class="sr-only">Link opens in new
                 window</span><!-- External Link --></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="https://www.utc.edu/academic-affairs/walker-center-for-teaching-and-learning/utc-learn"><span class="menu-hide">UTC </span>Learn&nbsp;<span class="fas fa-globe-americas" aria-hidden="true">
-                <!-- globe --></span></a>
+            <a class="nav-link" href="https://www.utc.edu/academic-affairs/walker-center-for-teaching-and-learning/utc-learn"><span class="menu-hide">UTC </span>Learn</a>
           </li>
         </ul>
       </div>
@@ -200,7 +198,7 @@ if ($errorReporting === "Y") {
       <div class="row">
         <div class="col blueHeader">
 
-          <a href="https://utc.edu/library">
+          <a href="https://www.utc.edu/library">
             <img src="/includes/img/web-wordmark-retina.png" alt="UTC Library">
           </a>
         </div>
